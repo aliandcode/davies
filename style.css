@@ -14,22 +14,23 @@ a {
 /* Navigation */
 
 nav {
-  text-align: center;
+  display: flex;
 }
 
 nav img {
-  display: inline;
   max-width: 200px;
   max-height: 200px;
-  align-items: center;
 }
 
 nav span {
-  display: block;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
   font-size: 16px;
   font-weight: 100;
   letter-spacing: 2px;
-  padding: 10px;
+  padding-top: 52px;
+  margin-left: 30px;
 }
 
 nav a {
@@ -46,7 +47,6 @@ nav a {
 
 .header {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_burgerphoto.jpeg");
-  background-position: center;
   background-size: cover;
   height: 400px;
   opacity: 0.8;
